@@ -4,7 +4,8 @@ import UserResults from '../component/layout/users/UserResults';
 function Home() {
   return (
     <div>
-      <h1 className='text-6xl'>Home </h1>
+      {/* Search Component  */}
+      <UserResults></UserResults>
     </div>
   )
 }
