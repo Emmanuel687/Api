@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import UserResults from '../component/layout/users/UserResults';
 
 function Home() {
   return (
