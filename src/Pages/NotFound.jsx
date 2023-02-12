@@ -12,7 +12,7 @@ function NotFound() {
           <p className="text-5xl mb-8">404 -Page not !</p>
           <Link to="/" className="btn btn-primary btn-lg">
             <FaHome className="mr-2"></FaHome>
-            Back to Home
+            Back to Hom
           </Link>
         </div>
       </div>

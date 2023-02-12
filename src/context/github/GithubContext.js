@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext } from "react";
-import { useState, useContext } from "react";
+import { useState } from "react";
 
 const GithubContext = createContext();
 const GITHUB_URL = process.env.REACT_APP_GITHUB_URL;
@@ -25,6 +25,7 @@ export const GithubProvider = ({ children }) => {
   return <GithubContext.Provider values={{
     users,
     loading,
+    fetchUsers,
   }}>
     {children}
   </GithubContext.Provider>
